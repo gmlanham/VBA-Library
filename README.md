@@ -4,6 +4,8 @@ This repository contains many VBA modules for Excel, Word and Outlook.
 VBA Utility User’s Guide
 The primary functionality of the VBA Utility is to browse Visual Basic for Applications (VBA) code in Word and Excel documents. The application provides access to the VB integrated development environment (VBIDE) of both Word and Excel, as well as, exported .BAS files. The ability to view exported .BAS files allows access to VBA originating in any application, including MS Outlook.
 The utility is a custom, office automation, application using MS Word and MS Excel to browse, to select and to view VBA code modules in documents (before exporting the code).
+![Alt text](./images/ControlPanel.png?raw=true "ControlPanel")
+
 Design Considerations.
 Each Word or Excel document contains its own VB Project. Several Word documents can be opened at the same time with all VBA projects showing in one instance of the VBIDE. The same is true for Excel. However, Word and Excel VBIDEs are separate. Therefore, a Word VBIDE must be opened for Word documents and an Excel VBIDE must be opened for Excel documents (Outlook is discussed later). 
 This VBA Utility uses MS Word as the user interface. Excel applications are opened when needed to access the Excel IDE, but the user only interacts with Word. (The Excel VBA Utility is opened with visibility set to false.)
